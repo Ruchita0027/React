@@ -1,0 +1,51 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.container{
+    background-color: aqua;
+    padding: 20px;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 5px;
+    width: 70%;
+    
+box-shadow: 4px 3px 10px 3px;
+}    
+  
+.container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: vertical;
+    border-radius: 10px;
+    
+    
+}
+
+#button{
+    background-color: #ee4a65;
+    color: #ffffff;
+    cursor: pointer;
+    
+    width: 100%;
+    
+}
+
+table th{
+    border: 2px solid black;
+    height: 50px;
+    
+}
+
+table{
+    margin-top: 15px;
+    border-collapse: collapse ;
+    width: 70%;
+    
+}
+

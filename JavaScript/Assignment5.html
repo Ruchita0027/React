@@ -1,0 +1,58 @@
+<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assignment5.css">
+    <script src="Assignment5.js"></script>
+  </head>
+   <body>
+     <!--Main heading-->
+    <h1 class="mainhead">User Form</h1>
+
+    <div class="code">
+
+      <!--preview-->
+      <div id="show" style="display: none;">
+        <h1 class="header">Preview</h1>
+
+        <label class="prehead" for="username">Name</label>
+        <br>
+        <div class="precentent" id="printuser"></div>
+        <br>
+        <label class="prehead" for="Daily activities">Daily activities</label>
+        <br>
+        <div class="precentent" id="printact"></div>
+        <br>
+        <label class="prehead" for="Hobbies">Hobbies</label>
+        <br>
+        <div class="precentent" id="printhob"></div>
+        <br>
+        <label class="prehead" for="Interests">Interests</label>
+        <br>
+        <div class="precentent" id="printint"></div>
+      </div>  
+      
+
+      <!--Userdata-->
+      <div id="hide" style="display:block;">
+
+        <div class="container">
+  
+          <label for="username">Name</label>
+          <input id="name" type="text" name="username"><br><br>
+          
+          <label for="activities">Daily activities</label>
+          <input id="act" type="text" name="activities"><br><br>
+         
+          <label for="hobbies">Hobbies</label>
+          <input id="hob" type="text" name="hobbies"><br><br>
+          
+          <label for="interests">Interests</label>
+          <input id="int" type="text" name="interests"><br><br>
+          
+          <div class="clearfix"><button onclick="hide_show();print()" type="button" class="submitbtn">Submit</button></div>
+          </div>  
+          </div>
+          </div>
+          </body>
+          </html>

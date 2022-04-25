@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Assignment4.css" >
+        <script src="Assignment4.js"></script>
+    </head>
+    <body>
+        <h1 >Customer Form</h1>
+        <div >
+            <div class="display">
+             
+                    <lable>Username:</lable> <br>
+                    <input id="user" type="text" placeholder="Enter your Name"><br>
+        
+                    <lable>Password:</lable><br>
+                    <input id="pass" type="password" placeholder="Enter your Password"><br>
+        
+                    <lable>E-mail ID:</lable><br>
+                    <input id="email" type="text" placeholder="Enter your E-mail"><br>
+         
+                    <lable>DOB:</lable><br>
+                    <input id="dob" type="date" placeholder="Enter your DOB"><br>
+        
+                    <lable>Address:</lable><br>
+                    <input id="address" type="text" placeholder="Enter your Address"><br>
+        
+                    <div class="button-text">
+                      <button  class="button-signup" onclick="Signup()">Sign Up!</button>
+                    </div>
+                    
+            </div>
+            <div>
+            
+                <table class="content-table" >
+                  <thead>
+                      <tr>
+                          <td>Username</td>
+                          <td>Password</td>
+                          <td>E-mail</td>
+                          <td>DOB</td>
+                          <td>Address</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td id="printusername"></td>
+                          <td id="printpassword"></td>
+                          <td id="printuseremail"></td>
+                          <td id="printuserdob"></td>
+                          <td id="printuseraddress"></td>
+                      </tr>
+                  </tbody>
+                </table>
+
+
+            </div>
+            
+           
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+h1{
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color:  #db202f;
+}
+.display{
+    margin: 33px 15px;
+    width: 300px; 
+    padding: 25px;
+    box-shadow: 4px 3px 10px 3px;
+    background-color: #ffffff;;
+    color:#ee4a65; 
+}
+
+lable{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input{
+    margin: 10px 0px;
+    width: 100%;
+    height: 25;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+
+.button-text{
+    text-align: center;
+}
+
+.button-signup{
+        background-color: #ee4a65;
+        color: #ffffff;
+        padding: 1px 2pc;
+        width: 41%;
+        border-radius: 5px;
+        height: 24px;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: -404px 673px ;
+    min-width: 650px ;
+    border-radius: 10PX 5PX 10px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba (0,0,0,0,15);
+}
+
+.content-table thead tr{
+    background-color: #ee4a65;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody {
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.content-table tbody tr:nth :nth-of-type(even){
+    background-color:#f3f3f3; 
+    width: 40px;
+
+}
+
+.content-table tbody tr:nth :last-of-type(even) {
+    border-bottom: 2px soild  #ee4a65;
+}
+
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}

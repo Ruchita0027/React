@@ -1,0 +1,49 @@
+.sign-up{
+    margin: 100px auto;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 3px 14px 9px skyblue;
+}
+.header{
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue; 
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 2px;
+    border: 1px solid #465c9f;
+}
+.button-box{
+    content: "";
+               clear: both;
+               display: table;
+    text-align: center;
+}
+.button-signup{
+background-color: #284def;
+    padding: 5px 22px;
+    margin: 10px 0;
+    width: 100px;
+    border: none;
+    color: white;
+}
+.signin-text{
+    margin: 0;
+    text-align: right;
+    font-size: 14px;
+}
+.signin-link{
+    color: #540fd6;
+}
+.text-bold{
+    font-weight: 600;
+}
+
